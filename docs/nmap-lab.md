@@ -31,11 +31,15 @@ Authorized public target provided by the Nmap project.
 
 ### Basic scan
 
+```text
 nmap scanme.nmap.org
+```
 
 ### Service and version detection
 
+```text
 nmap -sV scanme.nmap.org
+```
 
 ### Scan selected ports
 
@@ -43,17 +47,22 @@ nmap -p 22,80,443 -sV scanme.nmap.org
 
 ### Export XML
 
+```text
 nmap -sV -oX scan.xml scanme.nmap.org
+```
 
 ### Results
 
+```text
 22/tcp   open      ssh         OpenSSH
 80/tcp   open      http        Apache httpd
 161/tcp  filtered  snmp
 9929/tcp open      nping-echo  Nping echo
+```
 
 ### Urkunina Integration
 
+```text
 Target
   ↓
 Nmap
@@ -63,6 +72,7 @@ XML
 Python parser
   ↓
 JSON
+```
 
 The parser extracts information such as:
 - IP
@@ -76,6 +86,7 @@ The parser extracts information such as:
 
 ### Example JSON
 
+```text
 {
   "target": "scanme.nmap.org",
   "host": {
@@ -89,6 +100,7 @@ The parser extracts information such as:
     "total_ports_scanned": 1000
   }
 }
+```
 
 ## Security
 
