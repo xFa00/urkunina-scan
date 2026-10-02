@@ -24,10 +24,10 @@ Operating system:
 
 ```text
 macOS
-
+```
 Authorized public target provided by the Nmap project.
 
-## Commands 
+## Commands:
 
 ### Basic scan
 
@@ -92,4 +92,4 @@ The parser extracts information such as:
 
 ## Security
 
-Only scan systems that you own or have explicit authorization to test.
+Only scan systems that you own or have explicit authorization to test. 
