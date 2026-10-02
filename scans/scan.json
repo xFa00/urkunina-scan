@@ -1,0 +1,54 @@
+{
+    "target": "scanme.nmap.org",
+    "metadata": {
+        "scanner": "nmap",
+        "scanner_version": "7.991",
+        "scan_started": "Fri Oct  2 11:19:07 2026",
+        "processed_at": "2026-10-02T16:20:21.181289+00:00"
+    },
+    "host": {
+        "ip": "45.33.32.156",
+        "status": "up"
+    },
+    "summary": {
+        "ports_reported": 4,
+        "open": 3,
+        "filtered": 1,
+        "closed": 996,
+        "total_ports_scanned": 1000
+    },
+    "ports": [
+        {
+            "port": 22,
+            "protocol": "tcp",
+            "state": "open",
+            "service": "ssh",
+            "product": "OpenSSH",
+            "version": "6.6.1p1 Ubuntu 2ubuntu2.13"
+        },
+        {
+            "port": 80,
+            "protocol": "tcp",
+            "state": "open",
+            "service": "http",
+            "product": "Apache httpd",
+            "version": "2.4.7"
+        },
+        {
+            "port": 161,
+            "protocol": "tcp",
+            "state": "filtered",
+            "service": "snmp",
+            "product": null,
+            "version": null
+        },
+        {
+            "port": 9929,
+            "protocol": "tcp",
+            "state": "open",
+            "service": "nping-echo",
+            "product": "Nping echo",
+            "version": null
+        }
+    ]
+}
