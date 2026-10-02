@@ -43,7 +43,9 @@ nmap -sV scanme.nmap.org
 
 ### Scan selected ports
 
+```text
 nmap -p 22,80,443 -sV scanme.nmap.org
+```
 
 ### Export XML
 
